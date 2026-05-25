@@ -569,7 +569,7 @@ function Hero({ motionLevel = 7 }) {
             <img src="photos/logo.png" alt="Sunhill Public School crest" loading="eager" decoding="async" width="200" height="200" />
           </div>
           <div className="hero-photo" ref={photoRef}>
-            <img src="photos/building.jpeg" alt="Sunhill Public School building on Independence Day" loading="eager" decoding="async" width="800" height="1000" />
+            <img src="photos/building.jpeg" alt="Pre-Primary classroom at Sunhill Public School, Maranchi" loading="eager" decoding="async" width="800" height="1000" />
             <div className="photo-label">The school · Maranchi</div>
           </div>
           <div className="hero-stamp">

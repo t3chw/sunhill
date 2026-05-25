@@ -157,14 +157,14 @@ function WallOfWords() {
 /* ─────────────────────── Life at Sunhill (real-photo gallery) ─────────────────────── */
 function LifeGallery() {
   const items = [
-    { src: 'photos/independence-day.jpeg', cap: 'Independence Day', sub: 'August 15, 2025 · The playground', span: 'big' },
-    { src: 'photos/assembly-1.jpeg',       cap: 'Annual Function',  sub: 'Class IX student receives her prize', span: 'tall' },
-    { src: 'photos/assembly-2.jpeg',       cap: 'Prize day',        sub: 'A long line of certificates', span: 'small' },
-    { src: 'photos/classroom-1.jpeg',      cap: 'Class III',        sub: 'Morning attendance', span: 'small' },
-    { src: 'photos/event-1.jpeg',          cap: 'In the corridor',  sub: 'A reading in front of parents', span: 'wide' },
-    { src: 'photos/students-group.jpeg',   cap: 'Faculty & alumni', sub: 'A foggy December morning', span: 'tall' },
-    { src: 'photos/classroom-4.jpeg',      cap: 'LKG',              sub: 'The youngest section', span: 'small' },
-    { src: 'photos/classroom-2.jpeg',      cap: 'Class VII B',      sub: 'Section B, third bench from the left', span: 'small' },
+    { src: 'photos/assembly-1.jpeg',       cap: 'Republic Day',       sub: 'Tricolour assembly on the school ground', span: 'big' },
+    { src: 'photos/classroom-4.jpeg',      cap: 'Class X · Farewell', sub: 'Senior batch photograph', span: 'tall' },
+    { src: 'photos/assembly-2.jpeg',       cap: 'Flag Hoisting',      sub: 'Morning ceremony at the school gate', span: 'small' },
+    { src: 'photos/classroom-1.jpeg',      cap: 'Primary Classroom',  sub: 'A regular morning, Class III', span: 'small' },
+    { src: 'photos/event-1.jpeg',          cap: 'Annual Function',    sub: 'A student steps forward for her prize', span: 'wide' },
+    { src: 'photos/independence-day.jpeg', cap: "Teachers' Day",      sub: 'Assembly hall · prize distribution', span: 'tall' },
+    { src: 'photos/students-group.jpeg',   cap: 'School Assembly',    sub: 'Faculty address the school', span: 'small' },
+    { src: 'photos/classroom-2.jpeg',      cap: 'Middle School',      sub: 'A full classroom · Class VII', span: 'small' },
   ];
 
   const [focus, setFocus] = React.useState(null);

@@ -129,9 +129,9 @@ function Welcome() {
             who turned up the morning we put up the flagpole.
           </p>
           <div className="signature">
-            <div className="sig-mark">S</div>
+            <div className="sig-mark">C</div>
             <div>
-              <span className="sig-name">Shri Sharma</span>
+              <span className="sig-name">Chandan Kumar</span>
               <span className="sig-role">Principal · Sunhill Public School</span>
             </div>
           </div>
@@ -297,7 +297,7 @@ function Academics() {
       title: 'Small chairs, big questions.',
       desc: 'Our youngest learners. The day is short, the snacks are early, and almost everything happens through play, song, and reading aloud. We focus on the alphabet, numbers, colours, and the much harder lesson of sitting at a desk for ten minutes.',
       bullets: ['Short school day · 8:00 to 12:30', 'Picture books · daily storytime', 'No formal homework', 'Mid-morning snack provided'],
-      photo: 'photos/classroom-4.jpeg',
+      photo: 'photos/building.jpeg',
       caption: 'Pre-Primary classroom · Nursery & LKG',
     },
     {
@@ -321,8 +321,8 @@ function Academics() {
       title: 'The final two years, ending at the CBSE Board examination.',
       desc: 'Everything before this leads here. Two years of focused preparation across the five Board subjects, with extra evening hours, practical files, and a faculty that has guided every batch since 2007 to the same finish line.',
       bullets: ['CBSE Board prep · 2-year programme', 'Extra evening sessions, Sep–Mar', 'Pre-Board examinations × 2', '100% appeared · Class X 2025'],
-      photo: 'photos/classroom-3.jpeg',
-      caption: 'Class IX · Friday classroom',
+      photo: 'photos/classroom-4.jpeg',
+      caption: 'Class X · Senior batch photograph',
     },
   ];
   const [active, setActive] = React.useState('pre');

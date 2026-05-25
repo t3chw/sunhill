@@ -246,7 +246,7 @@ function Visit() {
         <h2 className="visit-quote reveal">
           Come walk through the gate. We will meet you at the <span className="saff">office.</span>
         </h2>
-        <p className="visit-attr reveal d1"><b>—  Shri Sharma</b> Principal</p>
+        <p className="visit-attr reveal d1"><b>—  Chandan Kumar</b> Principal</p>
 
         <div className="visit-bottom">
           <div className="visit-steps reveal d2">
@@ -261,7 +261,7 @@ function Visit() {
           <div className="visit-cta reveal d3">
             <h3>Visit the school<span className="saff"> in person.</span></h3>
             <p className="sub">Sunhill Public School, Maranchi · Open Mon–Sat, 8:00 am to 2:00 pm · Office until 4:00 pm.</p>
-            <div className="visit-phone">+91 8265 1318</div>
+            <div className="visit-phone">+91 79034 55956</div>
             <a href="#" className="visit-pill">
               Get directions
               <svg width="16" height="16" viewBox="0 0 16 16"><path d="M2 8h12m0 0-4-4m4 4-4 4" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg>
@@ -494,9 +494,9 @@ function FindUs() {
             <div className="lbl">Office hours</div>
             <div className="val">Mon – Sat<br />8:00 am – 4:00 pm</div>
           </div>
-          <a className="fu-extra" href="tel:+918265131800">
+          <a className="fu-extra" href="tel:+917903455956">
             <div className="lbl">Call the office</div>
-            <div className="val">+91 8265 1318</div>
+            <div className="val">+91 79034 55956</div>
           </a>
           <a className="fu-extra" href="mailto:office@sunhillmaranchi.in">
             <div className="lbl">Write to us</div>
@@ -619,7 +619,7 @@ function Footer() {
               Sunhill Public School,<br />
               Maranchi, Dist. Patna,<br />
               Bihar 803302 <br /><br />
-              +91 8265 1318<br />
+              +91 79034 55956<br />
               office@sunhillmaranchi.in
             </address>
           </div>
