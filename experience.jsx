@@ -156,15 +156,19 @@ function WallOfWords() {
 
 /* ─────────────────────── Life at Sunhill (real-photo gallery) ─────────────────────── */
 function LifeGallery() {
+  // Spans matched to image aspect ratios so nothing gets badly cropped:
+  // big (6×3, landscape) and small (3×2, landscape) take 4:3-ish photos.
+  // tall (3×4, portrait) takes the portrait-oriented event photos.
+  // wide (6×2, very wide) takes the long classroom hall.
   const items = [
     { src: 'photos/assembly-1.jpeg',       cap: 'Republic Day',       sub: 'Tricolour assembly on the school ground', span: 'big' },
-    { src: 'photos/classroom-4.jpeg',      cap: 'Class X · Farewell', sub: 'Senior batch photograph', span: 'tall' },
-    { src: 'photos/assembly-2.jpeg',       cap: 'Flag Hoisting',      sub: 'Morning ceremony at the school gate', span: 'small' },
-    { src: 'photos/classroom-1.jpeg',      cap: 'Primary Classroom',  sub: 'A regular morning, Class III', span: 'small' },
-    { src: 'photos/event-1.jpeg',          cap: 'Annual Function',    sub: 'A student steps forward for her prize', span: 'wide' },
-    { src: 'photos/independence-day.jpeg', cap: "Teachers' Day",      sub: 'Assembly hall · prize distribution', span: 'tall' },
-    { src: 'photos/students-group.jpeg',   cap: 'School Assembly',    sub: 'Faculty address the school', span: 'small' },
-    { src: 'photos/classroom-2.jpeg',      cap: 'Middle School',      sub: 'A full classroom · Class VII', span: 'small' },
+    { src: 'photos/event-1.jpeg',          cap: 'Annual Function',    sub: 'A student steps forward for her prize',   span: 'tall' },
+    { src: 'photos/assembly-2.jpeg',       cap: 'Flag Hoisting',      sub: 'Morning ceremony at the school gate',     span: 'small' },
+    { src: 'photos/classroom-1.jpeg',      cap: 'Primary Classroom',  sub: 'A regular morning, Class III',            span: 'small' },
+    { src: 'photos/classroom-2.jpeg',      cap: 'Middle School',      sub: 'A full classroom · Class VII',            span: 'wide' },
+    { src: 'photos/students-group.jpeg',   cap: 'School Assembly',    sub: 'Faculty address the school',              span: 'tall' },
+    { src: 'photos/independence-day.jpeg', cap: "Teachers' Day",      sub: 'Assembly hall · prize distribution',      span: 'small' },
+    { src: 'photos/classroom-4.jpeg',      cap: 'Class X · Farewell', sub: 'Senior batch photograph',                 span: 'small' },
   ];
 
   const [focus, setFocus] = React.useState(null);
