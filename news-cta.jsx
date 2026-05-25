@@ -275,9 +275,12 @@ function Visit() {
 
 /* ─────────────────────── Find us (map) ─────────────────────── */
 function FindUs() {
-  const mapQuery = encodeURIComponent('Shahid Priya Sharma Memorial Sunhill Public School Maranchi Patna');
-  const mapDirect = 'https://maps.app.goo.gl/SCyWoaGyLJ3yrdyf9';
-  const embedSrc = `https://www.google.com/maps?q=${mapQuery}&z=15&output=embed`;
+  // Exact pin from the short link the school shared:
+  // https://maps.app.goo.gl/mUkkWN6CPeAzC5Qv7 → 25.3604412, 85.9939213
+  const LAT = 25.3604412;
+  const LNG = 85.9939213;
+  const mapDirect = 'https://maps.app.goo.gl/mUkkWN6CPeAzC5Qv7';
+  const embedSrc = `https://www.google.com/maps?q=loc:${LAT},${LNG}(Sunhill+Public+School)&z=17&hl=en&output=embed`;
 
   return (
     <section className="section findus" id="find" data-screen-label="09 Find us">
