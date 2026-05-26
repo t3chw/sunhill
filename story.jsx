@@ -119,7 +119,7 @@ function Welcome() {
           </p>
           <p>
             We are a CBSE day school in Maranchi, founded in 2003 in memory of Priya
-            Sharma. The school carries her name as its first promise — that every child
+            Sharma. The school carries his name as its first promise — that every child
             who walks through these doors will be taken seriously, taught carefully, and
             sent home each evening a little surer of themselves.
           </p>
@@ -266,7 +266,7 @@ function Memorial() {
         <h2 className="mem-name">Shahid <span className="saff">Priya</span> Sharma</h2>
         <div className="mem-dates"><span className="bar"></span><span>Remembered by name, every morning, since 2003</span><span className="bar"></span></div>
         <p className="mem-body">
-          A school built in her memory carries a weight, and a softness.
+          A school built in his memory carries a weight, and a softness.
           We try to be worthy of <span className="em">both,</span> every day.
         </p>
 
