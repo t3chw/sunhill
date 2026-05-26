@@ -15,15 +15,15 @@ function News() {
     },
     {
       tag: 'Independence Day', date: '15 Aug 2025',
-      title: 'The whole school stood for the anthem in the foggy August sun.',
-      dek: 'Photographs from the morning flag hoisting, in the school playground.',
-      photo: 'photos/independence-day.jpeg',
+      title: 'The whole school stood for the anthem at the morning flag hoisting.',
+      dek: 'Photographs from the ceremony outside the school gate, staff and seniors at the flagpole.',
+      photo: 'photos/assembly-2.jpeg',
     },
     {
       tag: 'Annual function', date: '12 Mar 2025',
       title: 'Prize Day and the long line of certificates.',
       dek: 'Forty-six prizes in a single morning, and a Class IX student who quietly won three.',
-      photo: 'photos/assembly-1.jpeg',
+      photo: 'photos/event-1.jpeg',
     },
   ];
   return (

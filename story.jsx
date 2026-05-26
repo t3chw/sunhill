@@ -139,9 +139,9 @@ function Welcome() {
 
         <div className="w-bento reveal d1">
           <div className="w-cell c-photo">
-            <img src="photos/independence-day.jpeg" alt="Children with Indian flags on Independence Day" loading="lazy" decoding="async" />
+            <img src="photos/assembly-1.jpeg" alt="Children waving Indian flags during the school's tricolour assembly" loading="lazy" decoding="async" />
             <div className="overlay">
-              <div className="cap">15 August · Independence Day</div>
+              <div className="cap">National Day · Tricolour assembly</div>
               <div className="big">All of Maranchi, in white and tricolour.</div>
             </div>
           </div>
