@@ -540,7 +540,7 @@ function Hero({ motionLevel = 7 }) {
         <div className="hero-text" ref={titleRef}>
           <div className="hero-est">
             <span className="yr">03</span>
-            <span>Estd. 2003 · CBSE Curriculum · Nursery – Std X</span>
+            <span>Estd. 2003 · BSEB Curriculum · Nursery – Std X</span>
           </div>
           <div className="hero-memorial">Shahid Priya Sharma Memorial</div>
           <h1 className="hero-title">
@@ -552,7 +552,7 @@ function Hero({ motionLevel = 7 }) {
             <span className="translit">Knowledge<br />is nectar.</span>
           </div>
           <p className="hero-sub">
-            A neighbourhood CBSE school on the road to Patna — small enough that every child
+            A neighbourhood BSEB school on the road to Patna — small enough that every child
             is known by name, and proud enough to put its hopes for them on every wall.
           </p>
           <div className="hero-actions">
@@ -581,7 +581,7 @@ function Hero({ motionLevel = 7 }) {
       </div>
 
       <div className="hero-meta">
-        <div className="m">Curriculum<b>CBSE</b></div>
+        <div className="m">Curriculum<b>BSEB</b></div>
         <div className="m">Levels<b>Nursery → Std X</b></div>
         <div className="m">Founded<b>2003</b></div>
         <div className="m">Location<b>Maranchi, Patna</b></div>
@@ -599,7 +599,7 @@ function Hero({ motionLevel = 7 }) {
               <span className="star">✺</span>
               <span style={{ fontStyle: 'italic' }}>Since 2003 · Maranchi</span>
               <span className="star">✺</span>
-              <span>CBSE Curriculum · Nursery → Std X</span>
+              <span>BSEB Curriculum · Nursery → Std X</span>
               <span className="star">✺</span>
               <span style={{ fontStyle: 'italic' }}>Slow and steady wins the race</span>
               <span className="star">✺</span>

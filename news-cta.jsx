@@ -151,7 +151,7 @@ function News() {
 function Visit() {
   const steps = [
     { n: '01', t: 'Enquire', d: 'Visit the school office on any weekday morning, 9 to 12. Or call the number below. There is no online form; we like to meet you first.' },
-    { n: '02', t: 'Visit & test', d: 'A short visit with the child. From Class II onwards, a simple written assessment in English, Hindi and Mathematics, in keeping with CBSE entry norms.' },
+    { n: '02', t: 'Visit & test', d: 'A short visit with the child. From Class II onwards, a simple written assessment in English, Hindi and Mathematics, in keeping with BSEB entry norms.' },
     { n: '03', t: 'Admission', d: 'Bring the birth certificate, transfer certificate (if applicable), Aadhaar, and two photographs. Fees are payable per quarter.' },
   ];
   return (
@@ -260,7 +260,7 @@ function Visit() {
           </div>
           <div className="visit-cta reveal d3">
             <h3>Visit the school<span className="saff"> in person.</span></h3>
-            <p className="sub">Sunhill Public School, Maranchi · Open Mon–Sat, 8:00 am to 2:00 pm · Office until 4:00 pm.</p>
+            <p className="sub">Sunhill Public School, Maranchi · Open Tue–Sun, 8:00 am to 2:00 pm · Office until 4:00 pm.</p>
             <div className="visit-phone">+91 79034 55956</div>
             <a href="#" className="visit-pill">
               Get directions
@@ -474,7 +474,7 @@ function FindUs() {
             <h3>Sunhill Public School,<br />Maranchi</h3>
             <p className="addr">
               Maranchi, Dist. Patna,<br />
-              Bihar &nbsp;·&nbsp; CBSE Curriculum
+              Bihar &nbsp;·&nbsp; BSEB Curriculum
             </p>
             <a href={mapDirect} className="open" target="_blank" rel="noopener noreferrer">
               Open in Google Maps
@@ -488,11 +488,11 @@ function FindUs() {
         <div className="fu-extras reveal d2">
           <div className="fu-extra">
             <div className="lbl">School hours</div>
-            <div className="val">Mon – Sat<br />8:00 am – 2:00 pm</div>
+            <div className="val">Tue – Sun<br />8:00 am – 2:00 pm</div>
           </div>
           <div className="fu-extra">
             <div className="lbl">Office hours</div>
-            <div className="val">Mon – Sat<br />8:00 am – 4:00 pm</div>
+            <div className="val">Tue – Sun<br />8:00 am – 4:00 pm</div>
           </div>
           <a className="fu-extra" href="tel:+917903455956">
             <div className="lbl">Call the office</div>
@@ -608,8 +608,8 @@ function Footer() {
               </div>
             </div>
             <div className="motto">अमृतं तु विद्या</div>
-            <p>A CBSE day school in Maranchi, Patna. Small enough that every child is known by name.</p>
-            <div className="reg-tag">CBSE Reg. 23014 · Udise 10261901518</div>
+            <p>A BSEB day school in Maranchi, Patna. Small enough that every child is known by name.</p>
+            <div className="reg-tag">BSEB Reg. 23014 · Udise 10261901518</div>
           </div>
 
           <div className="footer-col">

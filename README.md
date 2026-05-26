@@ -1,6 +1,6 @@
 # Sunhill Public School
 
-Website for **Shahid Priya Sharma Memorial Sunhill Public School**, Maranchi (Patna) — a CBSE day school, Nursery to Class X.
+Website for **Shahid Priya Sharma Memorial Sunhill Public School**, Maranchi (Patna) — a BSEB day school, Nursery to Class X.
 
 > अमृतं तु विद्या — Knowledge is the only nectar
 

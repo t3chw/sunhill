@@ -118,7 +118,7 @@ function Welcome() {
             certain they have something to say.
           </p>
           <p>
-            We are a CBSE day school in Maranchi, founded in 2003 in memory of Priya
+            We are a BSEB day school in Maranchi, founded in 2003 in memory of Priya
             Sharma. The school carries his name as its first promise — that every child
             who walks through these doors will be taken seriously, taught carefully, and
             sent home each evening a little surer of themselves.
@@ -163,7 +163,7 @@ function Welcome() {
           <div className="w-cell c-stamp">
             <span className="cap">Affiliated to</span>
             <div className="row" style={{ marginTop: 8 }}>
-              <b>CBSE</b>
+              <b>BSEB</b>
               <span style={{ fontSize: 12, color: 'var(--ink-mute)', letterSpacing: '0.08em' }}>Reg. 23014</span>
             </div>
           </div>
@@ -289,7 +289,7 @@ function Memorial() {
   );
 }
 
-/* ─────────────────────── Academics (CBSE Nursery → X) ─────────────────────── */
+/* ─────────────────────── Academics (BSEB Nursery → X) ─────────────────────── */
 function Academics() {
   const sections = [
     {
@@ -303,7 +303,7 @@ function Academics() {
     {
       id: 'pri', tag: 'Primary', grades: 'Class I – V',
       title: 'Where reading, writing, and asking why begin in earnest.',
-      desc: 'The core of the school. English, Hindi, Mathematics, EVS, and the slow building of handwriting that takes five years to finish. We teach to the CBSE syllabus but at a pace that respects the child.',
+      desc: 'The core of the school. English, Hindi, Mathematics, EVS, and the slow building of handwriting that takes five years to finish. We teach to the BSEB syllabus but at a pace that respects the child.',
       bullets: ['English, Hindi, Maths, EVS, Computer', 'Class-teacher model · one teacher per class', 'Daily reading hour from Class II', 'House system from Class III'],
       photo: 'photos/classroom-1.jpeg',
       caption: 'Class III · Tuesday morning',
@@ -318,9 +318,9 @@ function Academics() {
     },
     {
       id: 'sec', tag: 'Secondary', grades: 'Class IX – X',
-      title: 'The final two years, ending at the CBSE Board examination.',
+      title: 'The final two years, ending at the BSEB Board examination.',
       desc: 'Everything before this leads here. Two years of focused preparation across the five Board subjects, with extra evening hours, practical files, and a faculty that has guided every batch since 2007 to the same finish line.',
-      bullets: ['CBSE Board prep · 2-year programme', 'Extra evening sessions, Sep–Mar', 'Pre-Board examinations × 2', '100% appeared · Class X 2025'],
+      bullets: ['BSEB Board prep · 2-year programme', 'Extra evening sessions, Sep–Mar', 'Pre-Board examinations × 2', '100% appeared · Class X 2025'],
       photo: 'photos/classroom-4.jpeg',
       caption: 'Class X · Senior batch photograph',
     },
@@ -436,8 +436,8 @@ function Academics() {
       <div className="section-inner">
         <div className="ac-head reveal">
           <div className="eyebrow"><span className="dot"></span>Academics</div>
-          <h2>Four sections, one <span className="saff">CBSE</span> classroom culture.</h2>
-          <p>From Nursery to Class X, Sunhill follows the CBSE curriculum at a pace that respects the child. The school is structured as four small sections that share a building, a culture, and one long lunchtime bell.</p>
+          <h2>Four sections, one <span className="saff">BSEB</span> classroom culture.</h2>
+          <p>From Nursery to Class X, Sunhill follows the BSEB curriculum at a pace that respects the child. The school is structured as four small sections that share a building, a culture, and one long lunchtime bell.</p>
         </div>
 
         <div className="ac-tabs reveal d1">

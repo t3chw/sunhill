@@ -503,12 +503,12 @@ function SunriseIntro({ onDone, durationMs = 6200 }) {
           — Knowledge is the only nectar —
         </div>
         <div className="intro-sub" style={{ opacity: subOpacity, color: mutedColor, borderTopColor: borderColor }}>
-          CBSE Curriculum<span className="dot" style={{ background: dotColor }}></span>Nursery – Std X<span className="dot" style={{ background: dotColor }}></span>Maranchi, Patna<span className="dot" style={{ background: dotColor }}></span>Estd. 2003
+          BSEB Curriculum<span className="dot" style={{ background: dotColor }}></span>Nursery – Std X<span className="dot" style={{ background: dotColor }}></span>Maranchi, Patna<span className="dot" style={{ background: dotColor }}></span>Estd. 2003
         </div>
       </div>
 
       {/* Corner annotations */}
-      <div className="intro-corner-l">A CBSE Day School · Bihar</div>
+      <div className="intro-corner-l">A BSEB Day School · Bihar</div>
 
       {/* Skip button */}
       <button className="intro-skip" onClick={skip} type="button">
